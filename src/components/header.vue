@@ -1,6 +1,6 @@
 <template>
     <div>
-        <tabs>
+        <header>
             <div class="logo">
                 <img src="../assets/logo.png" alt="">
                 <span class="company">EMMA </span>
@@ -8,13 +8,13 @@
             </div>
             <div class="nav">
                 <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" background-color="#409eff" text-color="#fff" active-text-color="#e6a23c">
-                    <el-menu-item index="1">XXXX</el-menu-item>
+                    <el-menu-item index="1">XXXXXX</el-menu-item>
                     <el-submenu index="2">
-                        <template slot="title">XXXXX</template>
-                        <el-menu-item index="2-1">XXXXX</el-menu-item>
-                        <el-menu-item index="2-2">XXXXX</el-menu-item>
+                        <template slot="title">XXXXXX</template>
+                        <el-menu-item index="2-1">XXXXXX</el-menu-item>
+                        <el-menu-item index="2-2">XXXXXX</el-menu-item>
                     </el-submenu>
-                    <el-menu-item index="4">XXXXX</el-menu-item>
+                    <el-menu-item index="4">XXXXXX</el-menu-item>
                     <el-menu-item index="6" class="message">
                         <el-badge :is-dot="isDot" class="item">
                             <i class="icon el-icon-bell"></i>
@@ -25,16 +25,16 @@
                             <img src="../assets/face.png" alt="">
                         </template>
                         <el-menu-item index="3-1">个人信息</el-menu-item>
-                        <el-menu-item index="3-2">XXXXX</el-menu-item>
+                        <el-menu-item index="3-2">XXXXXX</el-menu-item>
                     </el-submenu>
                 </el-menu>
             </div>
-        </tabs>
+        </header>
     </div>
 </template>
-<script >
+<script>
 export default {
-  name: "Tabs",
+  name: "Header",
   data() {
     return {
       activeIndex: "1",
@@ -43,9 +43,9 @@ export default {
   }
 };
 </script>
-<style lang="less" type="text/less">
+<style lang="less" scoped>
 @blue: #409eff;
-.tabs {
+header {
   width: 100%;
   min-width: 1200px;
   box-sizing: border-box;

@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <v-tabs></v-tabs>
+    <v-head></v-head>
     <div class="content">
       <!-- 页面切换过度状态 -->
       <transition name="move" mode="out-in">
@@ -11,11 +11,11 @@
   </div>
 </template>
 <script>
-import vTabs from "../../components/Tabs.vue";
+import vHead from "./Header.vue";
 export default {
   name: "Home",
   components: {
-    vTabs
+    vHead
   },
   data() {
     return {};

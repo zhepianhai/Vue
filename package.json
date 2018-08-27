@@ -2,7 +2,7 @@
     "name": "vue-pro",
     "version": "1.0.0",
     "description": "A Vue.js project",
-    "author": "zhepianhai <dlkzph084412120>",
+    "author": "zhepianhai <1364778591@qq.com>",
     "private": true,
     "scripts": {
         "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
